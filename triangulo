@@ -1,0 +1,14 @@
+var numeroUsuario, x, i, contador
+numeroUsuario = 7
+numeroDoble = numeroUsuario * 2 + 1
+x = ''
+
+for (i = 0; i < numeroDoble; i++) {
+  contador = + i
+  if ( contador > numeroDoble/2 ){
+    x = x.substring(1)
+  } else ( x += 'x')
+
+ console.log(x) 
+
+}
